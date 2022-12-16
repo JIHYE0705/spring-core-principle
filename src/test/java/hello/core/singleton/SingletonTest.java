@@ -21,7 +21,7 @@ public class SingletonTest {
         // 2. 조회: 호출 할 때마다 객체를 생성
         MemberService memberService2 = appConfig.memberService();
 
-        // 참좞이 다른 것을 확인
+        // 참조값이 다른 것을 확인
         System.out.println("memberService1 = " + memberService1);
         System.out.println("memberService2 = " + memberService2);
 
